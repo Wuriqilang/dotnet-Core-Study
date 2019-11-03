@@ -1,0 +1,111 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "BuildBundlerMinifier/3.2.435": {
+        "type": "package",
+        "build": {
+          "build/BuildBundlerMinifier.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BuildBundlerMinifier/3.2.435": {
+      "sha512": "6i5tLEU9c1o8+y01Ie9J+y8CY8x4P0R1G56KNDtgJmPI3Vd/GzqMqnTxoe8wpg/MAl15jk0KuIzerY1Kxu/WAg==",
+      "type": "package",
+      "path": "buildbundlerminifier/3.2.435",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/BuildBundlerMinifier.targets",
+        "buildbundlerminifier.3.2.435.nupkg.sha512",
+        "buildbundlerminifier.nuspec",
+        "tools/net46/BundlerMinifier.dll",
+        "tools/net46/NUglify.dll",
+        "tools/net46/Newtonsoft.Json.dll",
+        "tools/netcoreapp2.0/BundlerMinifier.dll",
+        "tools/netcoreapp2.0/NUglify.dll",
+        "tools/netcoreapp2.0/Newtonsoft.Json.dll",
+        "tools/netcoreapp3.0/BundlerMinifier.dll",
+        "tools/netcoreapp3.0/NUglify.dll",
+        "tools/netcoreapp3.0/Newtonsoft.Json.dll",
+        "tools/netstandard1.3/BundlerMinifier.dll",
+        "tools/netstandard1.3/NUglify.dll",
+        "tools/netstandard1.3/Newtonsoft.Json.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "BuildBundlerMinifier >= 3.2.435"
+    ]
+  },
+  "packageFolders": {
+    "/Users/wuriqilang/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/wuriqilang/Desktop/程序开发/project/CORE/coreWeb/coreWeb/coreWeb.csproj",
+      "projectName": "coreWeb",
+      "projectPath": "/Users/wuriqilang/Desktop/程序开发/project/CORE/coreWeb/coreWeb/coreWeb.csproj",
+      "packagesPath": "/Users/wuriqilang/.nuget/packages/",
+      "outputPath": "/Users/wuriqilang/Desktop/程序开发/project/CORE/coreWeb/coreWeb/obj/",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "/Users/wuriqilang/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "dependencies": {
+          "BuildBundlerMinifier": {
+            "target": "Package",
+            "version": "[3.2.435, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

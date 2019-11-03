@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{4F1C316C-D09A-48A4-94FB-9E0BFACBFED1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="coreWeb/Models/CompanySummary.cs">
+    <Files>
+      <File FileName="coreWeb/Models/Department.cs" Line="9" Column="47" />
+      <File FileName="coreWeb/Models/CompanySummary.cs" Line="6" Column="19" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="coreWeb" expanded="True">
+            <Node name="coreWeb" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="CompanySummary.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.coreWeb PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

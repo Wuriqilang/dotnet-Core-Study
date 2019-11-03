@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="services\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="wwwroot\" />
+    <Folder Include="wwwroot\images\" />
+    <Folder Include="wwwroot\lib\" />
+    <Folder Include="wwwroot\lib\bootstrap\" />
+    <Folder Include="wwwroot\lib\bootstrap\dist\" />
+    <Folder Include="wwwroot\css\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="BuildBundlerMinifier" Version="3.2.435" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Models\Gender.cs" />
+  </ItemGroup>
+</Project>
