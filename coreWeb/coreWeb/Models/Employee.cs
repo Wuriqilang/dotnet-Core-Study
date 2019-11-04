@@ -8,6 +8,7 @@ namespace coreWeb.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public Gender Gender { get; set; }
+        public bool Fired { get; set; }
     }
 
     public enum Gender

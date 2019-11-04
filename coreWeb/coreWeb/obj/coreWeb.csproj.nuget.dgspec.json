@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/wuriqilang/Desktop/程序开发/project/CORE/coreWeb/coreWeb/coreWeb.csproj": {}
+    "/Users/wuriqilang/Desktop/程序开发/project/CORE/dotnet-Core-Study/coreWeb/coreWeb/coreWeb.csproj": {}
   },
   "projects": {
-    "/Users/wuriqilang/Desktop/程序开发/project/CORE/coreWeb/coreWeb/coreWeb.csproj": {
+    "/Users/wuriqilang/Desktop/程序开发/project/CORE/dotnet-Core-Study/coreWeb/coreWeb/coreWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/wuriqilang/Desktop/程序开发/project/CORE/coreWeb/coreWeb/coreWeb.csproj",
+        "projectUniqueName": "/Users/wuriqilang/Desktop/程序开发/project/CORE/dotnet-Core-Study/coreWeb/coreWeb/coreWeb.csproj",
         "projectName": "coreWeb",
-        "projectPath": "/Users/wuriqilang/Desktop/程序开发/project/CORE/coreWeb/coreWeb/coreWeb.csproj",
+        "projectPath": "/Users/wuriqilang/Desktop/程序开发/project/CORE/dotnet-Core-Study/coreWeb/coreWeb/coreWeb.csproj",
         "packagesPath": "/Users/wuriqilang/.nuget/packages/",
-        "outputPath": "/Users/wuriqilang/Desktop/程序开发/project/CORE/coreWeb/coreWeb/obj/",
+        "outputPath": "/Users/wuriqilang/Desktop/程序开发/project/CORE/dotnet-Core-Study/coreWeb/coreWeb/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

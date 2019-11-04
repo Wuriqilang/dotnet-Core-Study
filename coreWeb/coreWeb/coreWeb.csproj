@@ -14,6 +14,12 @@
     <Folder Include="wwwroot\lib\bootstrap\dist\" />
     <Folder Include="wwwroot\css\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\" />
+    <Folder Include="Views\Shared\" />
+    <Folder Include="Views\Department\" />
+    <Folder Include="Views\Department\DisplayTemplates\" />
+    <Folder Include="Views\Employee\" />
+    <Folder Include="Views\Employee\DisplayTemplates\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.css" />

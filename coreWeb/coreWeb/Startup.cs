@@ -20,6 +20,8 @@ namespace coreWeb
             services.AddControllersWithViews();
 
             services.AddSingleton<IClock, ChinaClock>();
+            services.AddSingleton<IDepartmentService, DepartmentService>();
+            services.AddSingleton<IEmployeeService, EmployeeService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,7 +44,7 @@ namespace coreWeb
             {
                 endpoints.MapControllerRoute(
                     name: default,
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Department}/{action=Index}/{id?}");
             });
         }
     }

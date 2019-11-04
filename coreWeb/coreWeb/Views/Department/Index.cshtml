@@ -1,0 +1,23 @@
+﻿@using coreWeb.Models 
+@model IEnumerable<coreWeb.Models.Department>
+
+
+<div class="row">
+    <div class="col-md-10 offset-md-2">
+        <table class="table">
+            <tr>
+                <th>Name</th>
+                <th>Location</th>
+                <th>Employee Count</th>
+                <th>操作</th>
+            </tr>
+            @Html.DisplayForModel()
+        </table>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4 offset-md-2">
+        <a asp-action="Add">Add</a>
+    </div>
+</div>
