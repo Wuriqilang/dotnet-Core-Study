@@ -3,16 +3,19 @@ using System.Threading.Tasks;
 using coreWeb.Models;
 using coreWeb.services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 
 namespace coreWeb.Controllers
 {
     public class DepartmentController:Controller
     {
         private readonly IDepartmentService _departmentService;
+        private readonly IOptions<coreWebOptions> _coreWebOptions;
 
-        public DepartmentController(IDepartmentService departmentService)
+        public DepartmentController(IDepartmentService departmentService,IOptions<coreWebOptions> coreWebOptions)
         {
             _departmentService = departmentService;
+            _coreWebOptions = coreWebOptions;
         }
 
         public async Task<IActionResult> Index()

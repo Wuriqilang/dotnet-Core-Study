@@ -1,7 +1,18 @@
-﻿@model coreWeb.Models.Department
+﻿@using Microsoft.Extensions.Options;
+@using coreWeb;
+@model coreWeb.Models.Department
+
+@inject IOptions<coreWebOptions> coreWebOpiton
 
 <tr>
-    <td>@Model.Name</td>
+    @if (Model.EmployeeCount > coreWebOpiton.Value.BoldDepartmentEmployeeCountThreshold)
+    {
+        <td><strong>@Model.Name</strong></td>
+    }
+    else
+    {
+        <td>@Model.Name</td>
+    }
     <td>@Model.Location</td>
     <td>@Model.EmployeeCount</td>
 

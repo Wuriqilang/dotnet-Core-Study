@@ -5,7 +5,19 @@
         <State name="__root__">
           <Node name="coreWeb" expanded="True">
             <Node name="coreWeb" expanded="True">
-              <Node name="appsettings.json" expanded="True" selected="True" />
+              <Node name="ViewComponents" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Department" expanded="True">
+                  <Node name="DisplayTemplates" expanded="True">
+                    <Node name="Department.cshtml" selected="True" />
+                  </Node>
+                </Node>
+                <Node name="Shared" expanded="True">
+                  <Node name="Components" expanded="True">
+                    <Node name="CompanySummary" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>

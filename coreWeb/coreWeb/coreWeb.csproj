@@ -20,6 +20,9 @@
     <Folder Include="Views\Department\DisplayTemplates\" />
     <Folder Include="Views\Employee\" />
     <Folder Include="Views\Employee\DisplayTemplates\" />
+    <Folder Include="ViewComponents\" />
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="Views\Shared\Components\CompanySummary\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.css" />

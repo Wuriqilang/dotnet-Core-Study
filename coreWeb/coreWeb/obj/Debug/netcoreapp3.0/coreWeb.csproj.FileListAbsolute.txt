@@ -57,3 +57,4 @@
 /Users/wuriqilang/Desktop/程序开发/project/CORE/dotnet-Core-Study/coreWeb/coreWeb/obj/Debug/netcoreapp3.0/Razor/Views/Employee/Index.cshtml.g.cs
 /Users/wuriqilang/Desktop/程序开发/project/CORE/dotnet-Core-Study/coreWeb/coreWeb/obj/Debug/netcoreapp3.0/Razor/Views/Department/Add.cshtml.g.cs
 /Users/wuriqilang/Desktop/程序开发/project/CORE/dotnet-Core-Study/coreWeb/coreWeb/obj/Debug/netcoreapp3.0/Razor/Views/Employee/Add.cshtml.g.cs
+/Users/wuriqilang/Desktop/程序开发/project/CORE/dotnet-Core-Study/coreWeb/coreWeb/obj/Debug/netcoreapp3.0/Razor/Views/Shared/Components/CompanySummary/Default.cshtml.g.cs
