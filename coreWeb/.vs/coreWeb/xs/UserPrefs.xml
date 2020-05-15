@@ -1,5 +1,9 @@
 ﻿<Properties StartupConfiguration="{4F1C316C-D09A-48A4-94FB-9E0BFACBFED1}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="coreWeb/Program.cs">
+    <Files>
+      <File FileName="coreWeb/bundleconfig.json" Line="1" Column="1" />
+      <File FileName="coreWeb/Program.cs" Line="33" Column="4" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -8,9 +12,7 @@
               <Node name="ViewComponents" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Department" expanded="True">
-                  <Node name="DisplayTemplates" expanded="True">
-                    <Node name="Department.cshtml" selected="True" />
-                  </Node>
+                  <Node name="DisplayTemplates" expanded="True" />
                 </Node>
                 <Node name="Shared" expanded="True">
                   <Node name="Components" expanded="True">
@@ -18,6 +20,7 @@
                   </Node>
                 </Node>
               </Node>
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
