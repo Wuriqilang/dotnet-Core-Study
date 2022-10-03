@@ -4830,11 +4830,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/wuriqilang/Desktop/程序开发/project/CORE/coreAPI/coreAPI.csproj",
+      "projectUniqueName": "/Users/wuriqilang/Desktop/程序开发/project/CORE/dotnet-Core-Study/coreAPI/coreAPI.csproj",
       "projectName": "coreAPI",
-      "projectPath": "/Users/wuriqilang/Desktop/程序开发/project/CORE/coreAPI/coreAPI.csproj",
+      "projectPath": "/Users/wuriqilang/Desktop/程序开发/project/CORE/dotnet-Core-Study/coreAPI/coreAPI.csproj",
       "packagesPath": "/Users/wuriqilang/.nuget/packages/",
-      "outputPath": "/Users/wuriqilang/Desktop/程序开发/project/CORE/coreAPI/obj/",
+      "outputPath": "/Users/wuriqilang/Desktop/程序开发/project/CORE/dotnet-Core-Study/coreAPI/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -4881,6 +4881,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.0.1, 3.0.1]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -4889,7 +4895,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
       }
     }
   }
